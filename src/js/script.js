@@ -1,16 +1,16 @@
-//Declarando as variaveis
+//DECLARANDO AS VARIAVEIS
 
-const hamburguer = document.querySelector(".hamburguer");
-const headerMenu = document.querySelector(".header-menu");
+const hamburguer =document.querySelector(".hamburguer");
+const headerMenu =document.querySelector(".header-menu");
 
-//criando a função toogle
+//CRIANDO A FUNÇÃO TOOGLE
 
 function toggleMenu(){
     hamburguer.classList.toggle("active");
     headerMenu.classList.toggle("active");
 }
 
-//Criando o evento
+//CRIANDO O EVENTO 
 
 hamburguer.addEventListener('click',toggleMenu);
 headerMenu.addEventListener('click',(e)=>{
